@@ -1,0 +1,15 @@
+{
+    "name": "julle/test-package-a",
+    "description": "Test A",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Christian Jul Jensen",
+            "email": "julle@typo3.org"
+        }
+    ],
+    "require": {
+        "julle/test-package-b": "*",
+        "julle/test-package-c": "*"
+    }
+}
