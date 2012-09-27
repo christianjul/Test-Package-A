@@ -8,8 +8,10 @@
             "email": "julle@typo3.org"
         }
     ],
-    "require": {
-        "julle/test-package-b": "*",
-        "julle/test-package-c": "*"
+    "extra" : {
+        "flow3": {
+            "post-install" : "test",
+            "post-update" : "test"
+        }
     }
 }
