@@ -12,7 +12,7 @@
         "flow3": {
             "post-install" : "test",
             "post-update" : "test",
-            "manage-resources": TRUE
+            "manage-resources": true
         }
     }
 }
