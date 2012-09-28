@@ -11,7 +11,8 @@
     "extra" : {
         "flow3": {
             "post-install" : "test",
-            "post-update" : "test"
+            "post-update" : "test",
+            "manage-resources": TRUE
         }
     }
 }
